@@ -3,19 +3,19 @@ export default {
     title: 'Que deseas hacer?'
   },
   navigation: {
-    imaging: 'Radiografia',
+    imaging: 'Radiografía',
     inventory: 'Inventario',
     patients: 'Pacientes',
     appointments: 'Citas',
     medication: 'Recetas medicas',
-    labs: 'Laboratorio',
+    labs: 'Laboratorios',
     billing: 'Facturas',
     administration: 'Administracion',
     subnav: {
       requests: 'Pedidos',
       items: 'Items',
       completed: 'Completado',
-      newRequest: 'New pedido',
+      newRequest: 'Nuevo pedido',
       inventoryReceived: 'Inventario recibido',
       reports: 'Reportes',
       patientListing: 'Lista de pacientes',
@@ -24,13 +24,13 @@ export default {
       today: 'Hoy',
       search: 'Buscar',
       addAppointment: 'Nueva cita',
-      dispense: 'Dispense',
+      dispense: 'Dispensar',
       returnMedication: 'Devolver medicamento',
       invoices: 'Facturas',
       newInvoice: 'Nueva factura',
       prices: 'Precios',
       priceProfiles: 'Perfil de precios',
-      lookupLists: 'Lista de busuedas',
+      lookupLists: 'Lista de busquedas',
       addressFields: 'Campos de dirección',
       loadDb: 'Cargar base de datos',
       users: 'Usuarios',
@@ -75,12 +75,12 @@ export default {
     },
     loaddb: {
       progressMessage: 'Por favor espere mientras la base de datos es cargada.',
-      progressTitle: 'Cargando ase de datos',
+      progressTitle: 'Cargando base de datos',
       displayAlertTitle: 'Seleccione un archivo para cargar',
       displayAlertMessage: 'Por favor seleccione un archivo para ser cargado.',
       errorDisplayAlertTitle: 'Error cargando',
-      errorDisplayAlertMessage: `La base de datos no fue cargada el error fue: {{error}}`,
-      editTitle: 'Cargar bd'
+      errorDisplayAlertMessage: 'La base de datos no fue cargada el error fue: {{error}}',
+      editTitle: 'Editar titulo'
     },
     lookup: {
       deleteValueInventoryTypeMedicationTitle: 'No se puede eliminar el medicamento',
@@ -88,11 +88,11 @@ export default {
       deleteValueLabPricingTypeProcedureTitle: 'No se puede eliminar el tipo de precio',
       deleteValueLabPricingTypeProcedureMessage: 'El tipo de precio Procedimiento Lab no se puede eliminar porque es necesaria para el módulo de laboratorios.',
       deleteValueImagingPricingTypeProcedureTitle: 'No se puede eliminar el tipo de imagen',
-      deleteValueImagingPricingTypeProcedureMessage: 'No se puede eliminar porque es necesario para el modulo de radiografias',
+      deleteValueImagingPricingTypeProcedureMessage: 'No se puede eliminar porque es necesario para el modulo de radiografías',
       deleteValueVisitTypeAdmissionTitle: 'No se puede eliminar admision tipo visita',
       deleteValueVisitTypeAdmissionMessage: 'Tipo de visita es necesaria para el modulo de admisiones.',
-      deleteValueVisitTypeImagingTitle: 'No se puede eliminar el tipo radiografia',
-      deleteValueVisitTypeImagingMessage: 'No se puede eliminar por que es necesario para el modulo de radiografias.',
+      deleteValueVisitTypeImagingTitle: 'No se puede eliminar el tipo radiografía',
+      deleteValueVisitTypeImagingMessage: 'No se puede eliminar por que es necesario para el modulo de radiografías.',
       deleteValueVisitTypeLabTitle: 'No se puede eliminar el tipo laboratorio',
       deleteValueVisitTypeLabMessage: 'Es necesario para el modulo de laboratorio.',
       deleteValueVisitTypePharmacyTitle: 'No se puede eliminar el tipo farmacia',
@@ -124,7 +124,7 @@ export default {
       aisleLocationList: 'Ubicacion de inventario de pasillo',
       warehouseList: 'Ubicacciones de inventarios',
       inventoryTypes: 'Tipos de inventarios',
-      imagingPricingTypes: 'Tipos de precios de radiografias',
+      imagingPricingTypes: 'Tipos de precios de radiografías',
       labPricingTypes: 'Precios de laboratorio',
       patientStatusList: 'Lista de estado de pacientes',
       physicianList: 'Medicos',
@@ -184,10 +184,10 @@ export default {
         addLab: 'Adicionar laboratorio',
         completeLab: 'Completar laboratorio',
         deleteLab: 'Eliminar laboratorio',
-        imaging: 'Radiografia',
-        addImaging: 'Adicionar radiografia',
-        completeImaging: 'Completar radiografia',
-        deleteImaging: 'Eliminar radiografia',
+        imaging: 'Radiografía',
+        addImaging: 'Adicionar radiografía',
+        completeImaging: 'Completar radiografía',
+        deleteImaging: 'Eliminar radiografía',
         inventory: 'Inventario',
         addInventoryRequest: 'Pedido de inventario',
         addInventoryItem: 'Adicionar elemento al inventario',
@@ -202,7 +202,7 @@ export default {
         roleSaved: 'El {{roleName}} rol ha sido salvado.'
       },
       titles: {
-        roleSaved: 'Role salvado'
+        roleSaved: 'Rol salvado'
       }
     }
   },
@@ -211,7 +211,7 @@ export default {
     loading: 'Cargando',
     name: 'Nombre',
     patient: 'Paciente',
-    quantity: 'Cantidada',
+    quantity: 'Cantid',
     requestedOn: 'Pedido On',
     date: 'Fecha',
     dateOfBirth: 'Fecha de nacimiento',
@@ -220,17 +220,17 @@ export default {
     dateCompleted: 'Fecha completada',
     description: 'Descripción',
     requestedBy: 'Pedido por|',
-    fulfill: 'Cumplomiento',
+    fulfill: 'Cumplimiento',
     fulfillRequest: 'Pedido de cumplimiento',
     fulfillRequestNow: 'Pedido de cumplimiento ahora',
     actions: 'Acciones',
     action: 'Accion',
     notes: 'Notas',
     edit: 'Editar',
-    imageOrders: 'Ordenes de radiografias',
+    imageOrders: 'Ordenes de radiografías',
     labOrders: 'Ordenes de laboratorio',
     patientHistory: 'Historia del paciente',
-    imagingType: 'Tipo de radiografia',
+    imagingType: 'Tipo de radiografía',
     result: 'Resultado',
     results: 'Resultados',
     visit: 'Visita',
@@ -421,7 +421,7 @@ export default {
       serialNumber: 'Serial/Numero de lote',
       total: 'Total',
       totalCost: 'Costo total',
-      totalReceived: 'Total Recivido: {{total}}',
+      totalReceived: 'Total Recibido: {{total}}',
       transaction: 'Transaccion',
       transactions: 'Transacciones',
       transfer: 'Translados',
@@ -435,7 +435,7 @@ export default {
       xref: 'XRef'
     },
     messages: {
-      adjust: 'Por favor ajust las cantidades en la ubicación adecuada(s) la diferencia de la cuenta es {{difference}}.',
+      adjust: 'Por favor ajustar las cantidades en la ubicación adecuada(s) la diferencia de la cuenta es {{difference}}.',
       createRequest: 'Crear un nuevo pedido?',
       delete: 'Estas seguro de eliminar {{name}}?',
       itemNotFound: 'El elemento del inventario <strong>{{item}}</strong> no se pudo encontrar.<br>Si desea crear un nuevo elemento, Ingrese la información abajo.<br>De lo contrario opria cancelar para volver.',
@@ -513,10 +513,10 @@ export default {
     }
   },
   imaging: {
-    pageTitle: 'Pedido de radriografia',
-    sectionTitle: 'Radiografias',
+    pageTitle: 'Pedido de radiografía',
+    sectionTitle: 'Radiografías',
     buttons: {
-      newButton: '+ new radiografia'
+      newButton: '+ new radiografía'
     },
     labels: {
       radiologist: 'Radiologo',
@@ -526,15 +526,15 @@ export default {
       noCompleted: 'No de items encontrados.'
     },
     titles: {
-      completedImaging: 'Radiografia completada',
-      editTitle: 'Pedido de edicion de radiografia',
-      newTitle: 'Nuevo pedido de radiografia'
+      completedImaging: 'Radiografía completada',
+      editTitle: 'Pedido de edicion de radiografía',
+      newTitle: 'Nuevo pedido de radiografía'
     },
     alerts: {
-      completedTitle: 'Pedido de radiografia completado',
-      completedMessage: 'El pedido de radiografia ha sido completado.',
-      savedTitle: 'Pedido de radiografia salvado',
-      savedMessage: 'El pedido de radiografia ha sido guardado.'
+      completedTitle: 'Pedido de radiografía completado',
+      completedMessage: 'El pedido de radiografía ha sido completado.',
+      savedTitle: 'Pedido de radiografía salvado',
+      savedMessage: 'El pedido de radiografía ha sido guardado.'
     }
   },
   medication: {
@@ -598,16 +598,16 @@ export default {
         newAppointment: 'Nuevas citas',
         addDiagnosis: 'Adicionar diagnostico',
         newProcedure: 'Nuevo procedimiento',
-        newLab: 'New laboratorio',
+        newLab: 'Nuevo laboratorio',
         newMedication: 'Nueva mediicación',
-        newImaging: 'Nueva radiografia'
+        newImaging: 'Nueva radiografía'
       },
       labels: {
         diagnosis: 'Diagnostico',
         procedure: 'Procedimiento',
         authoredBy: 'Escrito por',
         labs: 'Laboratorios',
-        imaging: 'Radiografias',
+        imaging: 'Radiografías',
         visitInformation: 'Informacion de visita'
       }
     }
@@ -624,7 +624,7 @@ export default {
       addNewVisit: '--Adicionar nueva visita--'
     },
     messages: {
-      noItemsFound: 'No boratorios encontrados.',
+      noItemsFound: 'No se encontro nungun item.',
       createNewRecord: 'Crear un registro?',
       confirmDeletion: 'Esta seguro de eliminar esta solicitud de laboratorio?',
       noCompleted: 'No elementos completados encontrados.'
